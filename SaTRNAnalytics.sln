@@ -1,0 +1,57 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.572
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SaTRNAnalytics", "SaTRNAnalytics\SaTRNAnalytics.csproj", "{1FAB60D1-D555-4632-8810-EF9C842F87C6}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SaTRNAnalytics.Core", "SaTRNAnalytics.Core\SaTRNAnalytics.Core.csproj", "{9BF18501-FDAD-442F-AE7C-D11DC1F64498}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SaTRNAnalytics.Infrastructure", "SaTRNAnalytics.Infrastructure\SaTRNAnalytics.Infrastructure.csproj", "{D7FDBC5B-DFEF-4A57-B682-340A67D83293}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{A3E25E32-7540-4F90-A258-7E769E79F356}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SaTRNAnalytics.UnitTest", "SaTRNAnalytics.UnitTest\SaTRNAnalytics.UnitTest.csproj", "{7F231B94-487A-4B82-A448-B9C18DC3BDA3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{225917A3-5BF5-4BF8-A545-81DE0DFABF44}"
+	ProjectSection(SolutionItems) = preProject
+		.dockerignore = .dockerignore
+		.gitattributes = .gitattributes
+		.gitignore = .gitignore
+		NuGet.Config = NuGet.Config
+		README.md = README.md
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1FAB60D1-D555-4632-8810-EF9C842F87C6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1FAB60D1-D555-4632-8810-EF9C842F87C6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1FAB60D1-D555-4632-8810-EF9C842F87C6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1FAB60D1-D555-4632-8810-EF9C842F87C6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9BF18501-FDAD-442F-AE7C-D11DC1F64498}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9BF18501-FDAD-442F-AE7C-D11DC1F64498}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9BF18501-FDAD-442F-AE7C-D11DC1F64498}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9BF18501-FDAD-442F-AE7C-D11DC1F64498}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D7FDBC5B-DFEF-4A57-B682-340A67D83293}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D7FDBC5B-DFEF-4A57-B682-340A67D83293}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D7FDBC5B-DFEF-4A57-B682-340A67D83293}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D7FDBC5B-DFEF-4A57-B682-340A67D83293}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7F231B94-487A-4B82-A448-B9C18DC3BDA3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7F231B94-487A-4B82-A448-B9C18DC3BDA3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7F231B94-487A-4B82-A448-B9C18DC3BDA3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7F231B94-487A-4B82-A448-B9C18DC3BDA3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{7F231B94-487A-4B82-A448-B9C18DC3BDA3} = {A3E25E32-7540-4F90-A258-7E769E79F356}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {01754033-B8DA-4563-9BF8-8D4B8830F29F}
+	EndGlobalSection
+EndGlobal
